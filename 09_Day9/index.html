@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9</title>
+    <style>
+        .bg {
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+        }
+
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(82, 82, 82);
+        }
+
+        .img {
+            height: 20vh;
+            width: 20vw;
+        }
+
+        .img img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        .change{
+            position: absolute;
+            left: 20%;
+            background-color: transparent;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- This is the original para -->
+    <p id="para">Lorem ipsum dolor sit amet.</p>
+    <div class="bg"></div>
+    <div></div>
+    <ul></ul>
+
+    <div class="img">
+        <img src="https://plus.unsplash.com/premium_photo-1721405380977-d27241902a74?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="">
+    </div>
+    <p class="text">This is a random text</p>
+
+    <div class="change">
+        <button>Click me</button>
+        <p class="changetext">This is a normal paragraph and this will going ot change if you click the button</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
